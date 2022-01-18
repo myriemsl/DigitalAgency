@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DigitalAgency/static/css/main.2dddb7d4.css",
+    "main.js": "/DigitalAgency/static/js/main.328f0017.js",
+    "index.html": "/DigitalAgency/index.html",
+    "main.2dddb7d4.css.map": "/DigitalAgency/static/css/main.2dddb7d4.css.map",
+    "main.328f0017.js.map": "/DigitalAgency/static/js/main.328f0017.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dddb7d4.css",
+    "static/js/main.328f0017.js"
+  ]
+}
