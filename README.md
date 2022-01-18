@@ -1,4 +1,4 @@
 # Digital Agency
-![digitalagency](https://user-images.githubusercontent.com/74598067/150018229-e92b2502-72ac-40fa-8899-011239ec2d99.PNG)
-![digitalagency1](https://user-images.githubusercontent.com/74598067/150018250-e0834489-08ab-4a45-9364-502b79d02313.PNG)
-![Digitalagency2](https://user-images.githubusercontent.com/74598067/150018268-84c7ffb8-c389-4545-923e-17270604d7e0.PNG)
+![DigitalAgency](https://user-images.githubusercontent.com/74598067/150019027-5602e186-3b31-4cc8-b2b1-ff7a0f5f96b0.PNG)
+![DigitalAgency1](https://user-images.githubusercontent.com/74598067/150019068-c65a7ec2-f664-482f-a46d-86ae562e420a.PNG)
+![DigitalAgency2](https://user-images.githubusercontent.com/74598067/150019094-efcd0aa1-7f75-4a0b-8306-0f9902ef7d27.PNG)
