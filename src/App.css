@@ -1,0 +1,581 @@
+/*/ Global /*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+ body {
+   color: #D9D9D9;
+   background-color: #0A0A0A;
+}
+
+
+
+/*/ Scrollbar /*/
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+ background-color: #0A0A0A;
+}
+
+/*/ Handle /*/
+::-webkit-scrollbar-thumb {
+  background: #D9D9D9;
+  border-radius: 5px;
+}
+
+
+/*/ App /*/
+.app {
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+
+/*/ Navbar /*/
+.navbar {
+    margin: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.navtitle { 
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.navitems {
+    display: flex;
+}
+
+.navitem {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.2em;
+    margin-right: 1.5rem;
+    font-weight: lighter;
+}
+
+.navitem:hover {
+    cursor: pointer;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+.navicon {
+    margin-right: 0.2rem;
+}
+
+.navbaricon {
+    display: none;
+}
+
+.navitem span {
+   color: #df0503;
+   cursor: pointer;  
+}
+
+
+
+/*/ Container /*/
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*/ Home /*/
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 2em;
+}
+
+.home-description {
+  font-size: 3em;
+  font-weight: lighter;
+}
+
+.homepic {
+  width: 25rem;
+}
+
+.home-aboutus {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: #D9D9D9;
+  color: #0A0A0A;
+}
+
+.home-aboutus div {
+  margin: 2em ;
+}
+
+.home-aboutus h2 {
+  margin-bottom: 1em;
+  font-weight: lighter;
+}
+
+.home-aboutus-icon {
+  font-size: 5rem;
+}
+
+.home-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    padding: 4rem;
+}
+
+.home-services h3 {
+  margin: 1em;
+  font-weight: lighter;
+}
+
+.home-services-box {
+  margin: 1em;
+  display: flex;
+}
+
+.home-services-box div {
+  margin: 0.3em;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.home-services-box div h4 {
+  font-weight: lighter;
+}
+
+.services-icon {
+  margin: 1em;
+  font-size: 1.2em;
+}
+
+.first-box {
+  background-color: black;
+  color: white;
+}
+
+.start {
+  padding: 4em;
+  text-align: center;
+}
+ 
+.start h2 {
+  margin: 1em;
+  font-weight: lighter;
+}
+
+.homelink {
+  text-decoration: none;
+  color: #df0503;
+}
+
+
+
+/*/ Social /*/
+.social {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+}
+
+.socialicon {
+  margin-top: 2em;
+  font-size: 1em;
+}
+
+
+
+/*/ Testimonials /*/
+.testimonials-section {
+  padding: 4em;
+  background-color: #D9D9D9;
+  color: #0A0A0A; 
+}
+
+.testimonials-section h3 {
+  text-align: center;
+  margin: 1em;
+  font-weight: lighter;
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-card {
+  padding: 2em 3em;
+  margin: 1em;
+  box-shadow: 0px 2px 5px #0a0a0a62;
+}
+
+
+
+
+/*/ Footer /*/
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;    
+    padding: 3em;
+    background-color: black;
+}
+
+.footer h5 {
+    margin-bottom: 1em;
+    font-size: 0.8rem;
+}
+
+.footer h6 {
+    margin-bottom:1em;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.footericon {
+    margin-right: 0.5em;
+    font-size: 1rem;
+    color: #D9D9D9;
+    font-weight: lighter;
+    vertical-align: bottom;
+}
+
+.copyright {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-weight: lighter;
+    padding: 10px 0;
+    border-top: 1px solid #0A0A0A; 
+    background-color: black;
+}
+
+
+/*/ About us /*/
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto  2em;
+}
+
+.aboutus-section {
+  display: flex;
+  align-items: center;
+}
+
+.aboutus-section div {
+  margin: 1em;
+}
+
+.aboutus-section h5 {
+  margin-bottom: 1em;
+  color: #df0503;
+  font-weight: lighter;
+}
+
+.aboutus-icon {
+  font-size: 5rem;
+  color: #D9D9D9;
+}
+
+
+/*/ Services /*/
+.services {
+  margin: 2em;
+}
+.services-page-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  margin: 1em;
+}
+
+.services-page-box h3 {
+  margin: 1em;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+}
+.services-page-box .servicesicon {
+  color: #df0503;
+  vertical-align: middle;
+}
+
+
+.services-box {
+  display: flex;
+}
+
+.services-box div {
+  margin: 0.3em;
+  padding: 2rem;
+  border: 1px solid black;
+}
+
+.services-box h4 {
+  font-weight: lighter;
+}
+
+.services-box .box{
+  background-color: black;
+}
+
+
+
+/*/ Contact /*/
+ .contactform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 2em;
+}
+
+ .contactform h3 {
+  margin-bottom: 2em; 
+  font-weight: lighter;
+  letter-spacing: 0.1em;
+}
+
+form {
+  margin-bottom: 1em;
+}
+
+.contactdetails div {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactdescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactdetails input {
+ color: #D9D9D9;
+ background-color: transparent;
+ outline: none;
+ border: none;
+ border-bottom: 1px solid #D9D9D9;
+ width: 20rem;
+}
+
+.contactdescription label {
+  margin: 0.5em 0;
+}
+
+.contactdescription textarea {
+  color: #D9D9D9;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #D9D9D9;
+}
+
+.submitbtn {
+  padding: 0.5em 1em;
+  background-color: black;
+  color: #D9D9D9;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/*/ Responsive /*/
+
+/*/ Navbar /*/
+@media screen and (max-width:950px) {
+  .navtitle {
+    display: none;
+  }
+ 
+}
+@media screen and (max-width:767px) {
+
+    .navitems {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        position: absolute;
+        width: 100%;
+        height: 100vh ;
+        top: 0;
+        left: -120%;
+        transition: all 0.5s ease;
+        background-color: #0a0a0ac4; 
+
+    }
+    
+    .navitems.active {
+        transition: all 0.5s ease;
+        left: 0px;
+        z-index: 1;
+    }
+
+    .navitem {
+        margin-bottom: 1.5em;
+    }
+
+    .navbaricon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 2rem;
+        color: #df0503;
+        cursor: pointer;
+        transform: translate(-100%, 60%);
+        z-index: 10;
+    }
+}
+
+
+/*/ Home /*/
+@media (max-width:975px) {
+  .home-description {
+    font-size: 2.5em;
+  }
+}
+@media (max-width:825px) {
+  .home-description {
+    font-size: 2.2em;
+  }
+  .socialicon {
+    margin-top: 1.3em;
+  }
+}
+@media (max-width:750px) {
+ .home {
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: flex-start;
+
+ }
+ .social {
+   display: flex;
+   flex-direction: row;
+   margin-left: 0;
+
+  }
+ .socialicon {
+   margin-right: 1em;
+ }
+}
+@media (max-width:575px) {
+  .home-description {
+    font-size: 1.7em;
+  }
+  .socialicon {
+    margin-top: 1em;
+  }
+}
+@media (max-width:450px) {
+  .home-description {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width:875px) {
+  .home-aboutus {
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
+@media (max-width:875px) {
+  .home-services-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+/*/ Testimonials /*/
+@media (max-width:767px) {
+ .testimonials {
+   display: flex;
+   flex-wrap: wrap;
+  }
+}
+
+
+/*/ Footer /*/
+ @media (max-width:767px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }  
+  }
+
+@media (max-width:650px) {
+     .footer h5 {
+       font-size: 0.9em;
+       margin: 0.5em auto ;
+     }
+     .footer h6 {
+      margin-bottom: 0.8em;
+      font-size: 0.8rem;
+  }
+  
+  .footericon {
+      margin-right: 0.5em;
+      font-size: 1rem;
+  }
+}
+  
+ 
+  /*/ About us /*/
+@media (max-width:700px) {
+  .aboutus-icon {
+    display: none;
+  }
+
+  .aboutus-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+/*/ Services /*/
+@media (max-width:767px) {
+  .services-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
